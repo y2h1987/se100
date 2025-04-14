@@ -1,0 +1,28 @@
+.stock-profile h1{
+    color: #0066ff;
+}
+
+
+.company-info/* Style company information */ {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+
+.stock-details /* Style stock details */ {
+  margin-top: 20px;
+}
+
+
+.stock-details p {
+  font-style: italic;
+}
+
+
+.current-price  /* Style specific paragraphs within stock details using the descendant combinator */ {
+  color: green;
+}
+
+.price-change /* Style specific paragraphs within stock details using the descendant combinator */ {
+  color: red;
+}
