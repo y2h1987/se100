@@ -55,5 +55,6 @@ fetchData()
 fetch('https://www.alphavantage.co/query?function=OVERVIEW&symbol=IBM&apikey=demo').then(
 response => response.json()
 ).then(
-  data => console.log(data)
+  data => console.log(data['Symbol'])
 );
+
