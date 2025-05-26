@@ -36,7 +36,7 @@ function processData(data) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             data = data + " and processed"; 
-            resolve(data); 
+            resolve(data);
         }, 1000);
     });
 }
@@ -58,3 +58,5 @@ response => response.json()
   data => console.log(data['Symbol'])
 );
 
+
+const p2 = new Promise(resolve => setTimeout(() => { data = data + " Hello" ; resolve(data), 1000})); 
