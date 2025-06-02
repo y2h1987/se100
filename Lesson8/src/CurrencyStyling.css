@@ -1,0 +1,33 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  margin: 20px;
+  column-gap: 10px;
+  align-items: center;
+}
+
+#currencySelect {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #fcb858;
+  color: black;
+  font-weight: bold;    
+}
+
+
+.converter-input {
+    background-color: black;
+    border: solid 1px grey;
+    height: 50px;
+}
+
+.converter-result {
+   font-weight: bold;
+   font-size: 25px;
+}
