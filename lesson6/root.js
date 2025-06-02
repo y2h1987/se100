@@ -2,8 +2,6 @@ function WelcomeMessagesTitle() {
   return <p>Welcome Messages</p>
 }
 
-function WelcomeMessage(props) {
-  return <li>Welcome {props.name} from Singapore</li>
 }
 
 function WelcomeMessageJerry() {
@@ -22,7 +20,7 @@ function WelcomeMessagesList() {
   </ul>
 }
 
-function WelcomeMessagesSection() {q
+
   return <div>
     <WelcomeMessagesTitle />
     <WelcomeMessagesList />
