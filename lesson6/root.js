@@ -2,6 +2,8 @@ function WelcomeMessagesTitle() {
   return <p>Welcome Messages</p>
 }
 
+function WelcomeMessageTom() {
+  return <li>Welcome Tom from Singapore</li>
 }
 
 function WelcomeMessageJerry() {
@@ -20,7 +22,7 @@ function WelcomeMessagesList() {
   </ul>
 }
 
-
+function WelcomeMessagesSection() {
   return <div>
     <WelcomeMessagesTitle />
     <WelcomeMessagesList />
